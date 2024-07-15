@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example Game</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background-color: darkslateblue;
+        text-align: center;
+        padding: 50px;
+        color: white;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 12px;
+      }
+
+      input {
+        padding: 10px;
+        font-size: 16px;
+        margin: 20px;
+        width: 200px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+      }
+      #answer {
+        margin-top: 20px;
+        font-size: 20px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Name That Tune</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="#">Features</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="signup.php">Sign Up</a></li>
+          <li><a href="login.php">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1>Guess the Song!</h1>
+
+    <div class="container">
+      <button id="playButton">Play</button>
+      <div id="guessResult"></div>
+      <div id="songDetails" style="display: none">
+        <h2 id="songName"></h2>
+        <img id="albumCover" src="" alt="Album Cover" />
+      </div>
+    </div>
+    <script defer src="api.js"></script>
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

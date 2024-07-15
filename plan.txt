@@ -1,0 +1,49 @@
+6/11-week:
+
+create plan - Done
+homepage - Done
+login/logout - Done
+
+6/18-week: 
+
+Get NavBar links working - Done 
+format singup/home - Done
+consoledate CSS Files * download project - Done
+
+6/24-week:
+
+Tonight: 
+
+Turn typescript into normal JS file
+Troubleshoot button
+
+
+full function on demo 
+full function on users 
+
+7/1-week: 
+
+functioning social system 
+complete profile page
+functioning scoring system
+
+7/7-week: 
+
+game builder system 
+connect to users spotify/apple
+functioning search and libary
+
+7/14-week: 
+
+Redo homepage 
+all/any game working 
+Ad system/Premium system 
+
+7/21-week: 
+
+Turn into downloadable game/application  
+graphic design -- logo 
+
+7/28-week: 
+
+publish 

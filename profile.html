@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Profile</title>
+    <style>
+        :root {
+            --primary: gold;
+            --primary-50: rgba(255, 217, 0, 0.508); 
+            --secondary: rgba(105, 105, 105, 0.435);
+            --text-light: antiquewhite;
+        }
+      body {
+        background-color: black;
+        color: var(--text-light);
+      }
+      header {
+        margin-bottom: 66px;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      ul a {
+        color: var(--text-light);
+      }
+      ul a:hover {
+        color: var(--primary);
+        text-decoration: underline;
+        border-left: 1.5px solid var(--primary); 
+        padding-left: 2rem;
+      }
+      section {
+        background-color: var(--secondary);
+        color: var(--text-light);
+        border-radius: 25px;
+        padding: 2rem;
+        margin-block: 1rem;
+      }
+      section h2 {
+        border-left: 3px solid var(--primary); 
+        padding-left: 4rem;
+        color: var(--primary);
+      }
+    h3 i {
+        font-size: 15px;
+    }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Name That Tune</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Sign Out</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container flex">
+      <div class="side-nav">
+        <div class="avatar">
+          <img
+            class="rounded"
+            img-thumbnail
+            src="example.jpg"
+            alt="profile pic"
+          />
+          <h3>UserName <i class="fa-solid fa-pen fa-2xs"></i></h3>
+        </div>
+        <div class="options">
+          <ul>
+              <a href="#"><li class="active">Profile</li></a>
+            
+              <a href="#"><li>Friends</li></a>
+
+              <a href="#"><li>High Scores</li></a>
+
+              <a href="#"><li>Settings</li></a>
+          </ul>
+        </div>
+      </div>
+   
+<main>
+    <section>
+      <div class="Profile">
+        <h2>Profile</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, vitae
+        </p>
+        
+      </div>
+    </section>
+
+    <section>
+      <div class="High Scores">
+        <h2>High Scores</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolor
+          aspernatur dolore qui esse ut laboriosam, voluptatibus quasi. Veniam,
+          nobis. Facere explicabo voluptatum, aliquam similique harum nobis a
+          eos nihil?
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="Friends">
+        <h2>Friends</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
+          possimus nulla molestias voluptatem corporis sequi aut ducimus
+          quibusdam quisquam tenetur saepe dolorum enim cupiditate incidunt
+          quidem numquam officiis, odio error.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="Settings">
+        <h2>Settings</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
+          dolore iusto porro placeat rerum voluptatum dolores incidunt
+          architecto! Dolore dignissimos iure facere est magni eligendi. Quasi
+          repudiandae maxime illum cum.
+        </p>
+      </div>
+    </section>
+</main>
+    </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

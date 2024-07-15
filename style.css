@@ -1,0 +1,246 @@
+input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 3px;
+}
+.bodysignup {
+  background-color: darkgray;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.fancy-play-button {
+  background-color: #e74c3c; /* Red background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.fancy-play-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.fancy-play-button:active {
+  background-color: #a93226; /* Even darker red on click */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
+
+.signup-form {
+  font-style: italic;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 3px;
+  border-image: linear-gradient(to right, #7f00ff, #e100ff) 1;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.options ul li {
+  padding: 1rem;
+  margin-top: 1.5rem;
+  font-size: 2rem;
+}
+.options ul li:hover {
+  color: var(--primary);
+  background-color: var(--primary-50);
+  border-left: 3px solid var(--primary);
+}
+.options .active {
+  color: var(--primary);
+  background-color: var(--primary-50);
+  border-left: 3px solid var(--primary);
+}
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+.side-nav {
+  background-color: var(--secondary);
+  border-radius: 25px;
+  min-width: 250px;
+}
+.avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid lightgray;
+  padding: 2rem;
+}
+
+.avatar img {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+
+.signup-form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.signup-form div input {
+  margin-block: 2px;
+}
+
+.bodyhome {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bodylogin {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.login-form {
+  font-style: italic;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justfiy-content: space-between; */
+  border: solid 3px;
+  border-image: linear-gradient(to right, #7f00ff, #e100ff) 1;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.login-form div input {
+  margin-block: 2px;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.main-content {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.left-section,
+.right-section {
+  width: 45%;
+  /* height: ; */
+}
+
+.left-section table,
+.right-section table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+#highscores-table th,
+#highscores-table td,
+.new-games td {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid lightgray;
+  text-align: center;
+}
+
+#highscores-table th {
+  background-color: #333;
+}
+
+#highscores-table td {
+  background-color: #555;
+}
+
+.new-games td {
+  background-color: purple;
+  color: lightgray;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+.new-games td:hover {
+  background-color: #6a0dad;
+}
+
+.center-content {
+  width: 80%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.ads {
+  background-color: #444;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background-color: #222;
+  color: lightgray;
+  padding: 20px 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.footer a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
